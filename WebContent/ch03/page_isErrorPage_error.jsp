@@ -14,7 +14,8 @@
 	<h4>에러가 발생했습니다.</h4>
 	<h5>exception 내장 객체 변수</h5>
 	<%
-	exception.printStackTrace(new java.io.printWriter(out));
+	/* 에러 표시 나서 임시로 주석 표시해둠.. */
+	/* exception.printStackTrace(new java.io.printWriter(out)); */
 	%>
 </body>
 </html>
