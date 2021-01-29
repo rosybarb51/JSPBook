@@ -26,7 +26,7 @@
 		factory.setSizeThreshold(4096);
 		factory.setRepository(path);
 		
-		ServletFileUpload upload = new ServletFileUpload(factory);
+		/* ServletFileUpload upload = new ServletFileUpload(factory);
 		List<FileItem> items = upload.parseRequest(request);
 		Iterator<FileItem> iter = items.iterator();
 		
@@ -39,7 +39,7 @@
 				File file = new File(fileUploadPath + "/" + fileName);
 				item.write(file);
 			}
-		}
+		} */
 	
 	/* DiskFileUpload upload = new DiskFileUpload(); */
 	

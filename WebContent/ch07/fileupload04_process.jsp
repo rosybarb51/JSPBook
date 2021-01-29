@@ -15,13 +15,13 @@
 <body>
 	<%
 	/* 파일 저장 경로 */
-	String path = "C:\\java102\\upload";
+	String filepath = "C:\\java102\\upload";
 	
 	/* 최신 파일 업로드 방식 */
 	String fileUploadPath = "C:\\java102\\upload";
 	
 	File path = new File(fileUploadPath);
-	DiskFileItemFactory factory = new DiskFileItemFactory();
+	/* DiskFileItemFactory factory = new DiskFileItemFactory();
 	factory.setSizeThreshold(4096);
 	factory.setRepository(path);
 	
@@ -53,7 +53,7 @@
 			out.println("파일 콘텐츠 유형 : " + contentType + "<br>");
 			out.println("파일 크기 : " + fileSize);
 		}
-	}
+	} */
 	
 	
 	/* DiskFileUpload upload = new DiskFileUpload(); */
